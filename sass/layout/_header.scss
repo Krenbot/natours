@@ -11,6 +11,7 @@
   position: relative;
 
   /*Check CLIPPY (css clip path maker) for premade templates*/
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
