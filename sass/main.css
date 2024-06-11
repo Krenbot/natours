@@ -509,6 +509,43 @@ body {
   font-size: 6rem;
   font-weight: 100;
 }
+@media only screen and (max-width: 56.25em) {
+  .card .card {
+    height: auto;
+  }
+  .card .card__side {
+    height: auto;
+    position: relative;
+    border-radius: 3px;
+  }
+  .card .card__side--back {
+    transform: rotateY(0);
+  }
+  .card .card:hover .card .card__side--front {
+    transform: rotateY(0);
+  }
+  .card .card__cta {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+    width: 100;
+    text-align: center;
+  }
+  .card .card__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: #fff;
+  }
+  .card .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  .card .card__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
+}
 
 .story {
   width: 75%;
